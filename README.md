@@ -4,7 +4,7 @@ use **antlr4** to parse sql to ParseTree and rebuild;
 
 execute command below
 ```yaml
-java -jar diff-1.0-SNAPSHOT-jar-with-dependencies.jar origin.sql target.sql
+java -jar diff-antlr4-1.0-SNAPSHOT-jar-with-dependencies.jar origin.sql target.sql
 ```
 
 then create **upgrade.sql** and **revert.sql**
